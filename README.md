@@ -3,7 +3,7 @@
 Linux C E N T O S commands
 
 List ports in use
-sudo netstat -tulpn
+- sudo netstat -tulpn
 
 list details programm
-ps pid
+- ps pid
