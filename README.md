@@ -16,3 +16,6 @@ list details programm
 
 - Uptade list packages
 *apt-get update*
+
+- Install app, example curl
+*apt-get install curL --yes*
