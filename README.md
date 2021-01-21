@@ -13,3 +13,6 @@ list details programm
 - ps pid
 
 # U B U N T U - ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbgLL5KvscvtZOc1zXBSQT6YQMAQLogzZvpw&usqp=CAU)
+
+- Uptade list packages
+*apt-get update*
