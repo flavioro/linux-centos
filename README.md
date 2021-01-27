@@ -9,8 +9,25 @@ Linux C E N T O S commands
 List ports in use
 - sudo netstat -tulpn
 
-list details programm
+list details programm (pid id do program run)
 - ps pid
+
+
+Where to find SSH Login log files
+Monitoring in real time
+tail -f -n 50 /var/log/secure | grep sshd
+
+
+List managed applications
+pm2 list
+
+Terminal Based Dashboard
+pm2 monit
+
+
+Firewall Centos (Allow ports (from to)
+iptables -I INPUT -p tcp --dport 30000:65534 -j ACCEPT
+
 
 # U B U N T U - ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbgLL5KvscvtZOc1zXBSQT6YQMAQLogzZvpw&usqp=CAU)
 
