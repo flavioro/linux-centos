@@ -6,6 +6,18 @@
 
 Linux C E N T O S commands
 
+- Outdated network config utility.
+```
+ifconfig
+```
+
+- List Network Interfaces
+```
+ip link show
+Or
+netstat -i
+```
+
 List ports in use
 - sudo netstat -tulpn
 
