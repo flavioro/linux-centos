@@ -6,6 +6,23 @@
 
 Linux C E N T O S commands
 
+**L I N U X - Centos Update docker**
+ ``` 
+ yum update docker
+ yum install docker-ce docker-ce-cli containerd.io
+ ```
+ 
+ **L I N U X - Version Docker**
+ ``` 
+systemctl status docker
+ ```
+ 
+ **L I N U X - Restart service docker**
+ ``` 
+ systemctl restart docker
+ ``` 
+
+
 - Outdated network config utility.
 ```
 ifconfig
