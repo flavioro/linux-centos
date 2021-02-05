@@ -6,6 +6,19 @@
 
 Linux C E N T O S commands
 
+###Directory Commands###
+ ``` 
+To navigate into the root directory, use "cd /"
+
+To navigate to your home directory, use "cd" or "cd ~"
+
+To navigate up one directory level, use "cd .."
+
+To navigate to the previous directory (or back), use "cd -"
+
+To navigate through multiple levels of directory at once, specify the full directory path that you want to go to. For example, use, "cd /var/www" to go directly to the /www subdirectory of /var/. As another example, "cd ~/Desktop" will move you to the Desktop subdirectory inside your home directory.
+ ```
+
 **L I N U X - Centos Update docker**
  ``` 
  yum update docker
