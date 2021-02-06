@@ -74,7 +74,16 @@ iptables -I INPUT -p tcp --dport 30000:65534 -j ACCEPT
 # U B U N T U - ![](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbgLL5KvscvtZOc1zXBSQT6YQMAQLogzZvpw&usqp=CAU)
 
 - Uptade list packages
-*apt-get update*
+```
+apt-get update
+```
 
 - Install app, example curl
-*apt-get install curL --yes*
+```
+apt-get install curL --yes
+```
+
+## Install D O C K E R
+```
+curl -fsSL https://get.docker.com | bash
+```
