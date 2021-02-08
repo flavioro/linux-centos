@@ -87,3 +87,8 @@ apt-get install curL --yes
 ```
 curl -fsSL https://get.docker.com | bash
 ```
+
+* List files and folder
+```
+ls -la
+```
