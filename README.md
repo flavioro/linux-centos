@@ -92,3 +92,17 @@ curl -fsSL https://get.docker.com | bash
 ```
 ls -la
 ```
+
+* Use Vim
+```
+vim name_file
+```
+
+* Edition Vim, only use keyboard <strong>'i'</strong>, after use, keyboard <strong>ESC</strong> and <strong>:wq</strong> and <strong>ENTER</strong>
+```
+i
+ESC
+:wq
+ENTER
+```
+
