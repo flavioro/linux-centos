@@ -131,3 +131,42 @@ pm2 restart power-back
  ```
 pm2 stop power-back
  ```
+ 
+ ### Settings to multi domains with app NextJs
+ 1. Realize o backup do arquivo de configuração do Apache:
+cp -vp /etc/apache2/conf/httpd.conf{,-BKP}
+
+2. Feito o backup, descomente as linhas de include no vhosts do domínio em questão, devendo ser feito tanto para HTTP quanto HTTPS:
+vim /etc/apache2/conf/httpd.conf
+
+3. Após acessar o arquivo, procure as linhas a seguir e remova o #:
+Include "/etc/apache2/conf.d/userdata/std/2_4/USUARIO/DOMINIO.COM/*.conf"
+Include "/etc/apache2/conf.d/userdata/ssl/2_4/USUARIO/DOMINIO.COM/*.conf"
+
+4. Agora crie os diretórios:
+mkdir -p /etc/apache2/conf.d/userdata/std/2_4/USUARIO/DOMINIO.COM
+mkdir -p /etc/apache2/conf.d/userdata/ssl/2_4/USUARIO/DOMINIO.COM
+
+5. Crie os arquivos a seguir, atente-se para a diferença no path com std e ssl:
+vim /etc/apache2/conf.d/userdata/std/2_4/USUARIO/DOMINIO.COM/USUARIO.conf
+
+6. Adicione o seguinte conteúdo ao arquivo de configuração no path std:
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+ProxyPass "/path" "http://destino.com/"
+
+7. Supondo que o domínio exemplo.com está hospedado conosco, e o webmail.exemplo.com é utilizado em outro local e o cliente deseja que o acesso exemplo.com/webmail seja redirecionado para o outro local. Configure da seguinte forma:
+RewriteEngine on
+RewriteCond %{HTTPS} off
+RewriteRule (.*) https://%{HTTP_HOST}%{REQUEST_URI} [L,R=301]
+ProxyPass "/webmail" "http://webmail.exemplo.com/"
+
+8. Feito isso, iremos configurar agora o arquivo no path ssl:
+ProxyPass "/path" "http://destino.com"
+
+9. E utilizaremos o mesmo exemplo do path std:
+ProxyPass "/webmail" "http://webmail.exemplo.com/"
+
+10. Ao finalizar a configuração em ambos os arquivos, basta executar os comandos a seguir:
+service httpd restart
