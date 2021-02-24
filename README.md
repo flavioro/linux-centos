@@ -7,8 +7,8 @@
 Linux C E N T O S commands
 
 ### Linux Command To List Current Logged In Users
-```w``` command – Shows information about the users currently on the machine, and their processes.
-```who``` command – Display information about users who are currently logged in.
+```w``` command – Shows information about the users currently on the machine, and their processes. <p>
+```who``` command – Display information about users who are currently logged in.<p>
 ```users``` command – See the login names of the users currently on the system, in sorted order, space separated, on a single line. It reads all information from /var/run/utmp file.
 
 ###Directory Commands###
