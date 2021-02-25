@@ -54,22 +54,22 @@ netstat -i
 ```
 
 List ports in use
-- sudo netstat -tulpn
+```sudo netstat -tulpn```
 
 list details programm (pid id do program run)
-- ps pid
+```ps pid```
 
 
 Where to find SSH Login log files
 Monitoring in real time
-tail -f -n 50 /var/log/secure | grep sshd
+```tail -f -n 50 /var/log/secure | grep sshd```
 
 
 List managed applications
-pm2 list
+```pm2 list```
 
 Terminal Based Dashboard
-pm2 monit
+```pm2 monit```
 
 
 Firewall Centos (Allow ports (from to)
@@ -136,6 +136,21 @@ pm2 restart power-back
  ```
 pm2 stop power-back
  ```
+ 
+### Run process in Linux with PM2 to NextJs site-arch
+
+Used npm
+https://medium.com/@indiesk/deploying-a-nextjs-app-in-production-with-custom-server-using-nginx-and-pm2-786ccf9444c5
+```
+pm2 start --name "nameService" npm -- run start
+```
+Used Yarn
+https://dev.to/reactstockholm/setup-a-next-js-project-with-pm2-nginx-and-yarn-on-ubuntu-18-04-22c9
+
+```
+pm2 start yarn --name "nameService" --interpreter bash -- start
+pm2 show nameService
+```
  
  ### Settings to multi domains with app NextJs
  1. Realize o backup do arquivo de configuração do Apache:
