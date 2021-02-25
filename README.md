@@ -98,19 +98,6 @@ curl -fsSL https://get.docker.com | bash
 ls -la
 ```
 
-* Use Vim
-```
-vim name_file
-```
-
-* Edition Vim, only use keyboard <strong>'i'</strong>, after use, keyboard <strong>ESC</strong> and <strong>:wq</strong> and <strong>ENTER</strong>
-```
-i
-ESC
-:wq
-ENTER
-```
-
 Run service pm2
  ```
 pm2 start dist/shared/infra/http/server.js --name power-back
