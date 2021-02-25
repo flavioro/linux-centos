@@ -7,3 +7,17 @@ To search using Vim/vi, for the current word:
 <br>Once word found in vim, you can press the <code><mark><b style="color:red;">n</b></mark></code> key to go directly to the next occurrence of the word in backwards. Press the <code><mark><b style="color:red;">N</b></mark></code> key to go directly to the opposite direction, i.e. forwards.
 
 reference: https://www.cyberciti.biz/faq/find-a-word-in-vim-or-vi-text-editor/
+
+
+### Use Vim
+```
+vim name_file
+```
+
+### Edition Vim, only use keyboard <strong>'i'</strong>, after use, keyboard <strong>ESC</strong> and <strong>:wq</strong> and <strong>ENTER</strong>
+```
+i
+ESC
+:wq
+ENTER
+```
