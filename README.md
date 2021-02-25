@@ -190,4 +190,4 @@ ProxyPass / http://localhost:8080/
 ProxyPassReverse / http://localhost:8080/
 </VirtualHost>
 ```
-
+reference: https://stackoverflow.com/questions/8541182/apache-redirect-to-another-port
