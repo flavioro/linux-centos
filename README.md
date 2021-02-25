@@ -175,3 +175,17 @@ ProxyPass "/webmail" "http://webmail.exemplo.com/"
 
 10. Ao finalizar a configuração em ambos os arquivos, basta executar os comandos a seguir:
 service httpd restart
+
+### Apache redirect to another port
+```config
+# Change 200.201.10.80 by yourIP
+<VirtualHost 200.201.10.80:80>
+ProxyPreserveHost On
+ProxyRequests Off
+ServerName myhost.com
+ServerAlias ww.myhost.com
+ProxyPass / http://localhost:8080/
+ProxyPassReverse / http://localhost:8080/
+</VirtualHost>
+```
+
