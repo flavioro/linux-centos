@@ -21,3 +21,9 @@ ESC
 :wq
 ENTER
 ```
+
+### Close without save
+```
+ESC
+:q!
+```
