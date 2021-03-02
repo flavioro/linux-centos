@@ -4,7 +4,12 @@
 
 # linux-C E N T O S - ![](https://miro.medium.com/proxy/0*gtVzHfWNRqKLbB4p.png)
 
-Linux C E N T O S commands
+##Linux C E N T O S commands
+
+### Track DNS propagation
+```
+https://www.whatsmydns.net/
+```
 
 ### Linux Command To List Current Logged In Users
 ```w``` command – Shows information about the users currently on the machine, and their processes. <p>
