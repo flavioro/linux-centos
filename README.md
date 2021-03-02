@@ -6,6 +6,11 @@
 
 ##Linux C E N T O S commands
 
+### Free distribution for SSL certificates
+```
+https://certbot.eff.org/
+```
+
 ### Track DNS propagation
 ```
 https://www.whatsmydns.net/
