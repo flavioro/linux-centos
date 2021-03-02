@@ -9,7 +9,8 @@
 ### Free distribution for SSL certificates
 ```
 https://certbot.eff.org/
-```
+``` 
+References: https://app.rocketseat.com.br/node/nivel-06/group/deploy-da-aplicacao/lesson/configurando-dominio-e-ssl
 
 ### Track DNS propagation
 ```
