@@ -6,6 +6,11 @@
 
 ##Linux C E N T O S commands
 
+### To remove non-empty directories and all the files within them, use the ```rm``` command with the ```-r``` (recursive) option:
+```
+rm -r dirname
+```
+
 ### To initiate a connection, type: 
 ```
 ssh username@xxx.xxx.xxx.xxx. ...
