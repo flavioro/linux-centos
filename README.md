@@ -6,6 +6,11 @@
 
 ##Linux C E N T O S commands
 
+### To initiate a connection, type: 
+```
+ssh username@xxx.xxx.xxx.xxx. ...
+```
+
 ### Free distribution for SSL certificates
 ```
 https://certbot.eff.org/
