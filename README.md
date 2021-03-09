@@ -10,6 +10,7 @@
 ```
 rm -r dirname
 ```
+Reference: https://linuxize.com/post/how-to-remove-files-and-directories-using-linux-command-line/
 
 ### To initiate a connection, type: 
 ```
