@@ -27,7 +27,16 @@ https://www.whatsmydns.net/
 ```who``` command – Display information about users who are currently logged in.<p>
 ```users``` command – See the login names of the users currently on the system, in sorted order, space separated, on a single line. It reads all information from /var/run/utmp file.
 
-###Directory Commands###
+
+### The pwd command displays the full, absolute path of the current, or working, directory. It’s not something you’ll use all the time, but it can be incredibly handy when you get a bit discombobulated.
+ ``` 
+ pwd
+ ```
+ ### How to get full path of a file?
+ ```
+ readlink -f file.txt
+ ```
+ ###Directory Commands###
  ``` 
 To navigate into the root directory, use "cd /"
 
