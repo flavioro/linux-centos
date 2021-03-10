@@ -8,7 +8,7 @@
 
 ### To remove non-empty directories and all the files within them, use the ```rm``` command with the ```-r``` (recursive) option:
 ```
-rm -r dirname
+rm -rf dirname
 ```
 Reference: https://linuxize.com/post/how-to-remove-files-and-directories-using-linux-command-line/
 
