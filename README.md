@@ -4,6 +4,20 @@
 
 # linux-C E N T O S - ![](https://miro.medium.com/proxy/0*gtVzHfWNRqKLbB4p.png)
 
+
+### Crontab in Linux with 20 Useful Examples to Schedule Jobs
+* How to List Crontab
+To view crontab entries of current users use the following command.
+
+```
+crontab -l
+```
+Use -u followed by the username to view crontab entries of the specified user.
+```
+crontab -u username -l
+```
+ref https://tecadmin.net/crontab-in-linux-with-20-examples-of-cron-schedule/
+
 ##Linux C E N T O S commands
 
 ### To remove non-empty directories and all the files within them, use the ```rm``` command with the ```-r``` (recursive) option:
@@ -129,7 +143,7 @@ curl -fsSL https://get.docker.com | bash
 ls -la
 ```
 
-Run service pm2
+### Run service pm2
  ```
 pm2 start dist/shared/infra/http/server.js --name power-back
  ```
