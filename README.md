@@ -4,6 +4,12 @@
 
 # linux-C E N T O S - ![](https://miro.medium.com/proxy/0*gtVzHfWNRqKLbB4p.png)
 
+###Copy between Windows/Linux Using PSCP - Putty SCP (Secure Copy) to transfer files securely
+From Linux to Windows, used porta 22022 no Linux
+```
+pscp -P 22022 root@162.241.103.39:/root/app/bkp/postgresbackup.tar ../Documents/Hostgator/bkp-server/
+```
+Reference https://www.youtube.com/watch?v=Sc0f-sxDJy0
 
 ### Crontab in Linux with 20 Useful Examples to Schedule Jobs
 * How to List Crontab
