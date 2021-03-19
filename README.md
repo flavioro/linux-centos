@@ -4,6 +4,7 @@
 
 # linux-C E N T O S - ![](https://miro.medium.com/proxy/0*gtVzHfWNRqKLbB4p.png)
 
+
 ### How to compress a whole directory (including subdirectories) using TAR in Unix based OS with the CLI
 ```
 tar -zcvf [result-filename.tar.gz] [path-of-directory-to-compress]
