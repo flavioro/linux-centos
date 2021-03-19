@@ -25,6 +25,11 @@ From Linux to Windows, used porta 22022 no Linux
 ```
 pscp -P 22022 root@162.241.103.39:/root/app/bkp/postgresbackup.tar ../Documents/Hostgator/bkp-server/
 ```
+
+* Copy from Windows to Linux
+```
+pscp -P 22022 robots.txt root@162.241.103.39:/root/app/bkp/
+```
 Reference https://www.youtube.com/watch?v=Sc0f-sxDJy0
 
 ### Crontab in Linux with 20 Useful Examples to Schedule Jobs
