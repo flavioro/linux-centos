@@ -19,7 +19,7 @@ or, if you’re already within /home/jack:
 mv testfile testfile2
 ```
 
-###Copy between Windows/Linux Using PSCP - Putty SCP (Secure Copy) to transfer files securely
+### Copy between Windows/Linux Using PSCP - Putty SCP (Secure Copy) to transfer files securely
 From Linux to Windows, used porta 22022 no Linux
 ```
 pscp -P 22022 root@162.241.103.39:/root/app/bkp/postgresbackup.tar ../Documents/Hostgator/bkp-server/
