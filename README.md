@@ -4,6 +4,21 @@
 
 # linux-C E N T O S - ![](https://miro.medium.com/proxy/0*gtVzHfWNRqKLbB4p.png)
 
+### How to compress a whole directory (including subdirectories) using TAR in Unix based OS with the CLI
+```
+tar -zcvf [result-filename.tar.gz] [path-of-directory-to-compress]
+```
+Reference https://ourcodeworld.com/articles/read/642/how-to-compress-a-whole-directory-including-subdirectories-using-tar-in-unix-based-os-with-the-cli
+
+### Command Line Moving
+```
+mv /home/jack/testfile /home/jack/testfile2
+```
+or, if you’re already within /home/jack:
+```
+mv testfile testfile2
+```
+
 ###Copy between Windows/Linux Using PSCP - Putty SCP (Secure Copy) to transfer files securely
 From Linux to Windows, used porta 22022 no Linux
 ```
