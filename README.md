@@ -1,9 +1,16 @@
 # L I N U X - ![](https://www.showmetech.com.br/wp-content/uploads//2020/04/WINDOWS-LINUX-990x556.png)
 
+<img src="https://www.showmetech.com.br/wp-content/uploads//2020/04/WINDOWS-LINUX-990x556.png" width="250px">
+
  - Linux, Ubuntu, Centos etc
 
-# linux-C E N T O S - ![](https://miro.medium.com/proxy/0*gtVzHfWNRqKLbB4p.png)
+### To delete a single file, use the rm or unlink command followed by the file name:
+```
+unlink filename
+rm filename
+```
 
+https://www.showmetech.com.br/wp-content/uploads//2020/04/WINDOWS-LINUX-990x556.png
 
 ### How to compress a whole directory (including subdirectories) using TAR in Unix based OS with the CLI
 ```
