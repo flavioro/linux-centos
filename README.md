@@ -1,6 +1,4 @@
-# L I N U X - ![](https://www.showmetech.com.br/wp-content/uploads//2020/04/WINDOWS-LINUX-990x556.png)
-
-<img src="https://www.showmetech.com.br/wp-content/uploads//2020/04/WINDOWS-LINUX-990x556.png" width="250px">
+# L I N U X - <img src="https://www.showmetech.com.br/wp-content/uploads//2020/04/WINDOWS-LINUX-990x556.png" width="250px">
 
  - Linux, Ubuntu, Centos etc
 
