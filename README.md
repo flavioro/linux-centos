@@ -3,10 +3,10 @@
  - Linux, Ubuntu, Centos etc
 
 ### What is the difference between kill and Pkill command?
+show only process with name ssh of root
 ```
 pgrep -u root ssh
 ```
-… listará apenas os processos chamados sshd e pertencentes à raiz . Por outro lado,
 
 ### To delete a single file, use the rm or unlink command followed by the file name:
 ```
