@@ -2,6 +2,11 @@
 
  - Linux, Ubuntu, Centos etc
 
+### How to find a file from any directory
+```
+find / -iname nameFile*
+```
+
 ### What is the difference between kill and Pkill command?
 show only process with name ssh of root
 ```
