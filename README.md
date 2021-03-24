@@ -2,6 +2,11 @@
 
  - Linux, Ubuntu, Centos etc
 
+### How I can know the IP address of other users logged at the same remote machine?
+```
+w
+```
+
 ### How to find a file from any directory
 ```
 find / -iname nameFile*
