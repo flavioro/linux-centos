@@ -33,7 +33,7 @@ https://www.showmetech.com.br/wp-content/uploads//2020/04/WINDOWS-LINUX-990x556.
 
 ### How to compress a whole directory (including subdirectories) using TAR in Unix based OS with the CLI
 ```
-tar -zcvf [result-filename.tar.gz] [path-of-directory-to-compress]
+tar -zcvf result-filename.tar.gz path-of-directory-to-compress
 ```
 Reference https://ourcodeworld.com/articles/read/642/how-to-compress-a-whole-directory-including-subdirectories-using-tar-in-unix-based-os-with-the-cli
 
