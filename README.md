@@ -3,8 +3,11 @@
  - Linux, Ubuntu, Centos etc
 
 ### How can I copy the contents of a folder to another folder in a different directory using terminal?
+The advantages of rsync are:
+After the initial sync, it will then copy only the files that have changed.
+You can use it over a network, convenient for files in $HOME, especially config files.
 ```
-cp -a /source/. /dest/
+rsync -a source/ destination/
 ```
 
 ### How I can know the IP address of other users logged at the same remote machine?
