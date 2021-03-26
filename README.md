@@ -210,6 +210,11 @@ pm2 start dist/shared/infra/http/server.js --name power-back
  ```
 pm2 startup systemd
  ```
+ 
+### [PM2] Freeze a process list on reboot via:
+```
+pm2 save
+```
 
 * Other commands pm2
  ```
