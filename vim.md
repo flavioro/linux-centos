@@ -9,6 +9,15 @@ To search using Vim/vi, for the current word:
 reference: https://www.cyberciti.biz/faq/find-a-word-in-vim-or-vi-text-editor/
 
 
+### Delete Multiple Lines
+1. Press Esc.
+2. Move the cursor to the first line you want to remove.
+3. Use one of the following commands (replacing [#] with the number of lines):
+example: 3dd
+```
+[numberLines]dd
+```
+
 ### Use Vim
 ```
 vim name_file
