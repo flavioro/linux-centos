@@ -163,6 +163,11 @@ Monitoring in real time
 ```tail -f -n 50 /var/log/secure | grep sshd```
 
 
+### Install pm2
+```
+sudo install -g pm2
+```
+
 List managed applications
 ```pm2 list```
 
