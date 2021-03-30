@@ -2,6 +2,14 @@
 
  - Linux, Ubuntu, Centos etc
 
+### SSL free - Get your site on Lock https://
+https://certbot.eff.org/lets-encrypt/ubuntufocal-nginx
+
+### Check os version in Linux
+```
+hostnamectl
+```
+
 ### Disk - Information, space free and use
 ```
 lsblk
@@ -74,14 +82,6 @@ pscp -P 22022 root@162.241.103.39:/root/app/bkp/postgresbackup.tar ../Documents/
 pscp -P 22022 robots.txt root@162.241.103.39:/root/app/bkp/
 ```
 Reference https://www.youtube.com/watch?v=Sc0f-sxDJy0
-
-### SSL free - Get your site on Lock https://
-https://certbot.eff.org/lets-encrypt/ubuntufocal-nginx
-
-### Check os version in Linux
-```
-hostnamectl
-```
 
 ### Crontab in Linux with 20 Useful Examples to Schedule Jobs
 * How to List Crontab
