@@ -2,6 +2,20 @@
 
  - Linux, Ubuntu, Centos etc
 
+### How to change root password in Ubuntu
+```
+passwd
+```
+
+### Commands to check memory usage on Linux
+```
+free -m
+cat /proc/meminfo
+top
+sudo dmidecode -t 17
+```
+
+
 ### SSL free - Get your site on Lock https://
 https://certbot.eff.org/lets-encrypt/ubuntufocal-nginx
 
