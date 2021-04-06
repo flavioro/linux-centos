@@ -2,6 +2,11 @@
 
  - Linux, Ubuntu, Centos etc
 
+###  Check Local IP address via ip command:
+```
+ip address
+```
+
 ### How to change root password in Ubuntu
 ```
 passwd
