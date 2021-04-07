@@ -2,6 +2,16 @@
 
  - Linux, Ubuntu, Centos etc
 
+### It will show a graphical representation of the current sub-directories without files (directory current)
+```
+ls -R | grep ":$" | sed -e 's/:$//' -e 's/[^-][^\/]*\//--/g' -e 's/^/   /' -e 's/-/|/'
+```
+
+### This command works to display both folders and files (directory current)
+```
+find . | sed -e "s/[^-][^\/]*\// |/g" -e "s/|\([^ ]\)/|-\1/"
+```
+
 ###  Check Local IP address via ip command:
 ```
 ip address
