@@ -2,6 +2,7 @@
 
  - Linux, Ubuntu, Centos etc
 
+
 ### How to set environment variable on Ubuntu
 ```
 sudo vim /etc/environment
@@ -10,6 +11,12 @@ sudo vim /etc/environment
 ```
 PATH="/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin"
 export GOOGLE_APPLICATION_CREDENTIALS="/mnt/disks/arch/config/gcloud/annular-ray.json"
+```
+### Test.
+```
+source /etc/environment
+or
+$ echo $GOOGLE_APPLICATION_CREDENTIALS
 ```
 
 ### It will show a graphical representation of the current sub-directories without files (directory current)
