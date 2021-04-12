@@ -2,6 +2,11 @@
 
  - Linux, Ubuntu, Centos etc
 
+### Using Ubuntu (update Nodejs)
+```
+curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
+sudo apt-get install -y nodejs
+```
 
 ### How to set environment variable on Ubuntu
 ```
