@@ -2,7 +2,7 @@
 
  - Linux, Ubuntu, Centos etc
 
-### Using Ubuntu (update Nodejs)
+### Using Ubuntu (update Nodejs), access https://github.com/nodesource/distributions
 ```
 curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
 sudo apt-get install -y nodejs
