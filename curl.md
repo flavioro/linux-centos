@@ -5,6 +5,16 @@
 https://www.baeldung.com/curl-rest
 
 ### Other examples:
+
+POST - params
+```
+curl -d '{"name":"Flavio","email":"flavio@gmail.com","account":"12345678","dttest":"11/05/2021","dtlicence":"01/07/2021"}' -H 'Content-Type: application/json' http://localhost:3000/api/addUser
+```
+
+Get - params
+```
+curl -X GET -d '{"email":"flavio@gmail.com"}' -H 'Content-Type: application/json' http://localhost:3000/api/users/verifyemail
+
 get
 ```
 curl -v http://localhost:3333/categories
