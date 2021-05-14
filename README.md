@@ -2,6 +2,13 @@
 
  - Linux, Ubuntu, Centos etc
 
+
+### To remove non-empty directories and all the files within them, use the ```rm``` command with the ```-r``` (recursive) option:
+```
+rm -rf dirname
+```
+Reference: https://linuxize.com/post/how-to-remove-files-and-directories-using-linux-command-line/
+
 ### Using Ubuntu (update Nodejs), access https://github.com/nodesource/distributions
 ```
 curl -sL https://deb.nodesource.com/setup_13.x | sudo -E bash -
@@ -148,12 +155,6 @@ crontab -u username -l
 ref https://tecadmin.net/crontab-in-linux-with-20-examples-of-cron-schedule/
 
 ##Linux C E N T O S commands
-
-### To remove non-empty directories and all the files within them, use the ```rm``` command with the ```-r``` (recursive) option:
-```
-rm -rf dirname
-```
-Reference: https://linuxize.com/post/how-to-remove-files-and-directories-using-linux-command-line/
 
 ### To initiate a connection, type: 
 ```
