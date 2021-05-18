@@ -1,5 +1,19 @@
 # nginx
 
+### Nginx - Start / Restart / Stop Nginx Commands (Web Server)
+The same commands can be used to start / stop / restart the nginx server on a Ubuntu Linux. For example:
+```
+sudo systemctl start nginx 
+sudo systemctl stop nginx 
+sudo systemctl restart nginx
+```
+One can use the following service command to restart or start or stop Nginx web server on an older version of Ubuntu server:
+```
+sudo service nginx start
+sudo service nginx stop
+sudo service nginx restart
+```
+
 access root
 ```
 sudo su
