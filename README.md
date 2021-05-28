@@ -7,6 +7,11 @@
 crontab -e
 ```
 
+Logs crontab
+```
+/var/log/
+```
+
 ### Crontab in Linux with 20 Useful Examples to Schedule Jobs
 * How to List Crontab
 To view crontab entries of current users use the following command.
