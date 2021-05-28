@@ -2,6 +2,23 @@
 
  - Linux, Ubuntu, Centos etc
 
+### Crontab in Linux with 20 Useful Examples to Schedule Jobs
+* How to List Crontab
+To view crontab entries of current users use the following command.
+
+```
+crontab -l
+```
+Use -u followed by the username to view crontab entries of the specified user.
+```
+crontab -u username -l
+```
+ref https://tecadmin.net/crontab-in-linux-with-20-examples-of-cron-schedule/
+
+### The pwd command displays the full, absolute path of the current, or working, directory. It’s not something you’ll use all the time, but it can be incredibly handy when you get a bit discombobulated.
+ ``` 
+ pwd
+ ```
 
 ### To remove non-empty directories and all the files within them, use the ```rm``` command with the ```-r``` (recursive) option:
 ```
@@ -141,19 +158,6 @@ pscp -P 22022 robots.txt root@162.241.103.39:/root/app/bkp/
 ```
 Reference https://www.youtube.com/watch?v=Sc0f-sxDJy0
 
-### Crontab in Linux with 20 Useful Examples to Schedule Jobs
-* How to List Crontab
-To view crontab entries of current users use the following command.
-
-```
-crontab -l
-```
-Use -u followed by the username to view crontab entries of the specified user.
-```
-crontab -u username -l
-```
-ref https://tecadmin.net/crontab-in-linux-with-20-examples-of-cron-schedule/
-
 ##Linux C E N T O S commands
 
 ### To initiate a connection, type: 
@@ -178,10 +182,6 @@ https://www.whatsmydns.net/
 ```users``` command – See the login names of the users currently on the system, in sorted order, space separated, on a single line. It reads all information from /var/run/utmp file.
 
 
-### The pwd command displays the full, absolute path of the current, or working, directory. It’s not something you’ll use all the time, but it can be incredibly handy when you get a bit discombobulated.
- ``` 
- pwd
- ```
  ### How to get full path of a file?
  ```
  readlink -f file.txt
