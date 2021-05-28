@@ -2,6 +2,11 @@
 
  - Linux, Ubuntu, Centos etc
 
+### How to Create or Edit a crontab File
+```
+crontab -e
+```
+
 ### Crontab in Linux with 20 Useful Examples to Schedule Jobs
 * How to List Crontab
 To view crontab entries of current users use the following command.
