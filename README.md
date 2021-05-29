@@ -2,6 +2,13 @@
 
  - Linux, Ubuntu, Centos etc
 
+### Crontab comment line, The only comment character allowed in a crontab file is #. So you need to do:
+```
+# This is line 1
+# This is line 2
+0 0 * * * /usr/bin/magiccronjob
+```
+
 ### How can you execute a Node.js script via a cron job?
 ```
 */5 * * * * cd /root/app/editFile/ && /usr/local/bin/node ./src/useCases/insertTxt.js
