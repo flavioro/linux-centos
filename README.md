@@ -2,6 +2,11 @@
 
  - Linux, Ubuntu, Centos etc
 
+### How can you execute a Node.js script via a cron job?
+```
+*/5 * * * * cd /root/app/editFile/ && /usr/local/bin/node ./src/useCases/insertTxt.js
+```
+
 ### How to Create or Edit a crontab File
 ```
 crontab -e
